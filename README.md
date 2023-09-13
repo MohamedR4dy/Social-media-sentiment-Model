@@ -1,6 +1,21 @@
 # Sentiments towards U.S. Airlines: A February 2015 Analysis
 
-This GitHub repository contains code and analysis for a sentiment analysis project on U.S. airlines. The project analyzes Twitter data from February 2015 to understand customer sentiments toward various airlines. This README provides an overview of the project, its structure, and how to use the code.
+We delve into sentiment analysis using Twitter data that encapsulates the challenges encountered by prominent U.S. airlines. The dataset, compiled from tweets posted in February 2015, undertakes the task of classifying tweets into positive, negative, or neutral sentiments. Furthermore, contributors were engaged in the critical task of associating negative sentiments with specific reasons, such as issues like "late flight" or "rude service." This comprehensive analysis illuminates public opinions concerning six major U.S. airlines, offering valuable insights into customer experiences and airline performance.
+
+​
+<br>
+​
+For example, it contains whether the sentiment of the tweets in this set was positive, neutral, or negative for six US airlines:
+
+​
+The information of main attributes for this project as follows;
+​
+* **`alirline_sentiment`** : Sentiment classification.(positivie, neutral, and negative)
+* **`negativereason`** : Reason selected for the negative opinion
+* **`airline`** : Name of 6 US Airlines('Delta', 'United', 'Southwest', 'US Airways', 'Virgin America', 'American')
+* **`text`** : Customer's opinion
+​
+<br>
 
 ## Table of Contents
 - [Import Libraries](#import-libraries)
